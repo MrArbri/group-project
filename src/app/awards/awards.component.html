@@ -1,0 +1,34 @@
+<section class="myAwards">
+  <div class="container">
+    <div class="myGrid">
+      <div class="myRow1">
+        <h1>Awards</h1>
+        <p class="myTextPhotographer">Photographer: {{ s_photographer }}</p>
+      </div>
+
+      <div
+        *ngFor="let item of data_photographs"
+        class="myBox"
+      >
+        <img
+          src="{{ item.img }}"
+          class="card-img-top myImage"
+          alt="{{ item.name }}"
+        />
+        <div class="myFlex">
+          <div>
+            <h3>{{ item.name }}</h3>
+            <p class="myTextSmall">
+              <i class="fa-solid fa-location-dot"></i> {{ item.location }} |
+              {{ item.date | date : "d MMM. y" }}
+            </p>
+          </div>
+          <div class="rating">
+            <span [innerHTML]="rating(item.rating)">Rating:</span>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>

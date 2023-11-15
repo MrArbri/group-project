@@ -1,0 +1,28 @@
+<section class="myPortfolio" id="portfolio">
+  <div class="container">
+    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
+      <div class="card rounded-0" *ngFor="let val of photographsArr">
+        <div class="container2">
+          <a routerLink="/awards/{{ val.photographer }}">
+            <img
+              src="{{ val.img }}"
+              class="card-img-top"
+              alt="{{ val.photographer }}"
+            />
+            <div
+              class="card-body"
+              style="color: rgb(255, 255, 255); text-align: start"
+            >
+              <div class="card-img-overlay text">
+                <h5 class="card-title p-2">{{ val.name.toUpperCase() }}</h5>
+                <p class="card-text p-2">
+                  Photographer: {{ val.photographer }}
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

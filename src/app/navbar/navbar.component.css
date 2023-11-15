@@ -1,0 +1,48 @@
+.navbar-brand{
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Sacramento', cursive;
+    font-size: xx-large;
+    font-weight: 900;   
+}
+
+.active{
+    font-weight: bold;
+    color: rgba(73, 206, 107, 0.873);
+}
+
+.navbar a {
+    font-weight:900;
+}
+
+.navbar a:hover {
+    color: rgba(73, 206, 107, 0.873);
+    font-size: 20px;
+}
+
+.navbar{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.lastname{
+    color: rgb(233, 188, 106);
+}
+.logoTop{
+    height: 50px;
+    width: 50px;
+    margin-right: 4rem;
+}
+
+
+
+
+.test2{
+   
+    width: 80%;
+    margin: 0 auto;
+}
+.test2 li{
+   
+    width: 100%;
+    text-align: center;
+}

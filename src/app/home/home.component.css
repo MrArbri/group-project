@@ -1,0 +1,50 @@
+h5 {
+    /* position: absolute; */
+    font-weight: 900;
+    text-decoration-line: underline;
+}
+
+.card-img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mySection2 {
+    background-color: rgba(187, 187, 187, 0.66);
+    padding: 20px 0px;
+}
+
+h1 {
+    font-family: 'Happy Monkey', cursive;
+}
+
+p {
+    font-family: 'Happy Monkey', cursive;
+}
+
+
+  .aTest{
+
+    white-space: nowrap;
+    overflow: hidden;
+    width: 19em;
+    /* animation: type 4s steps(60, end);  */
+    animation-name: type;
+    animation-duration: 4s;
+    animation-direction: revert;
+  }
+  
+  @keyframes type{ 
+    from { width: 0; }
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: .4;
+    }
+    80%{
+        opacity: .8;
+    } 
+  } 

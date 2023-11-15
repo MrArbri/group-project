@@ -1,0 +1,311 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.info > p, .myContainer > p{
+    text-align: justify;
+}
+
+.myContainer > p:last-child{
+    padding-bottom: 40px;
+}
+
+.test{
+    margin-top: 3rem;
+}
+
+.span_text{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.eolo1{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+
+}
+
+.cont {
+    margin: 0 auto;
+    padding-top:120px;
+}
+.first_first{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.first_first1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.second_second{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.third_third{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.four_four{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.four_four4{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.five_five{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.six_six{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.six_six6{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.seven_seven{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.seven_seven7{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.seven_seven77{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.image {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+.eight_eight{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.nine_nine{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.nine_nine9{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.nine_nine99{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.myContainer .nine{
+    margin-top: 2rem;
+}
+.myContainer .ten{
+    margin-top: 4rem;
+}
+.ten_ten{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.ten_ten10{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.eleven_eleven{
+    color: rgb(140, 134, 134);
+    font-weight: bold;
+
+
+}
+.eleven_eleven7{
+    color: rgb(170, 179, 179);
+
+}
+.twelve_twelve{
+    color: rgb(140, 134, 134);
+    font-weight: bold;
+
+}
+.twelve12{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.twelve122{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.twelve22{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.lei{
+    color: rgb(255, 0, 0);
+    font-family: 'Dancing Script', cursive;
+    font-size: small;
+}
+.thir33{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.lecia{
+    font-size: small;
+}
+.fourteen14{
+    color: rgb(140, 134, 134);
+    font-weight: bold;
+
+
+}
+.fifteen15{
+    color: rgb(140, 134, 134);
+    font-weight: bold;
+
+}
+.sixty16{
+    color: rgb(140, 134, 134);
+    font-weight: bold;
+
+}
+.seventeen17{
+    color: rgb(140, 134, 134);
+    font-weight: bold;
+
+}
+.image_xiaomi {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+.clients{
+    margin-top: 5rem;
+}
+.clients h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.clients-logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.clients-logo .bmw{
+    margin-top: 2rem;
+    height: 45px;
+    width: 70px;
+
+}
+.clients-logo .pepsi{
+    margin-top: 2rem;
+    height: 50px;
+    width: 60px;
+}
+.clients-logo .samsung{
+    margin-top: 2rem;
+    height: 47px;
+    width: 82px;
+}
+.clients-logo .sky{
+    margin-top: 2rem;
+    height: 42px;
+    width: 80px;
+}
+.Advertising-Agencies{
+    margin-top: 3rem;
+}
+.Advertising-Agencies h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.Advertising-Agencies-logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Advertising-Agencies-logo .bbdo{
+    margin-top: 2rem;
+    height: 28px;
+    width: 75px;
+}
+.Advertising-Agencies-logo .jwt{
+    margin-top: 2rem;
+    height: 29px;
+    width: 67px;
+}
+.Advertising-Agencies-logo .ddb{
+    margin-top: 2rem;
+    height: 29px;
+    width: 70px;
+}
+.Advertising-Agencies-logo .yr{
+    margin-top: 2rem;
+    height: 30px;
+    width: 68px;
+}
+.Magazines h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.Magazines{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.Magazines-logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Magazines-logo .vg{
+    margin-top: 2rem;
+    height: 17px;
+    width: 81px;
+}
+.Magazines-logo .pana{
+    margin-top: 2rem;
+    height: 23px;
+    width: 84px;
+}
+.Magazines-logo .gq{
+    margin-top: 2rem;
+    height: 27px;
+    width: 72px;
+}
+.Magazines-logo .hot{
+    margin-top: 2rem;
+    height: 27px;
+    width: 72px;
+}
+.cont{
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%;
+}
+@media screen and (max-width: 821px) {
+  .cont{
+      width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cont{
+      width: 90%;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+.myAwards{
+    padding:90px 0px 40px 0px;
+}
+
+.myGrid{
+    display: grid;
+    grid-template-columns: repeat(1fr 3);
+    grid-gap: 30px;
+}
+
+
+.myGrid .myRow1{
+    grid-column: 1 / span 3;
+}
+
+.myTextPhotographer{
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Sacramento', cursive;
+    font-weight: 900;
+
+    font-size:48pt;
+    text-align: center;
+    color:black; 
+    /* text-shadow: 0px 4px 4px black; */
+    /* rgb(233, 188, 106); */
+}
+
+.myBox{
+    /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
+    padding:0px;
+    margin:0px;
+
+    /* outline: 2px solid red; */
+    box-shadow: 0px 0px 10px 5px grey;
+}
+
+.myBox:hover {
+    box-shadow: 0px 0px 10px 5px black;
+    transform: scale(1.01);
+    font-size: larger;
+}
+
+.myTextSmall{
+    font-size: small;
+}
+
+.myImage{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+.myFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:0px;
+    padding:6px 12px;
+    background-color: whitesmoke;
+}
+
+.rating{
+    text-align: right;
+}
+
+.rating > span{
+    color:#F4B400;
+    font-size:25px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .myGrid{
+        grid-template-columns: repeat(1fr 2);
+    }
+    
+    
+    .myGrid .myRow1{
+        grid-column: 1 / span 2;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .myGrid{
+        grid-template-columns: repeat(1fr 1);
+    }
+    
+    
+    .myGrid .myRow1{
+        grid-column: 1 / span 1;
+    }
+}
